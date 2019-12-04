@@ -14,4 +14,4 @@ var ageMonths = 8
 var ageDays = 32
 var ageSeconds = (((ageYears * 365 + ageMonths * 30 + ageDays) * 24) * 60) * 60
 
-console.log('Tengo ' + ageYears + ' con ' + ageMonths + 'meses y ' + ageDays + ' días. Por lo tanto tengo ' + ageSeconds + ' segundos y contando.')
+console.log('Tengo ' + ageYears + ' con ' + ageMonths + ' meses y ' + ageDays + ' días. Por lo tanto tengo ' + ageSeconds + ' segundos y contando.')
