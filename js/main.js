@@ -69,7 +69,7 @@ var word = 'cacatua'
 var vowels = 'aeiouAEIOU'
 
 var vowelsAmount = 0
-for (count = 0; count < word.length; count++) {
+for (var count = 0; count < word.length; count++) {
     let letter = word[count]
     if (vowels.includes(letter)) {
         vowelsAmount++
