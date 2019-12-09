@@ -25,3 +25,17 @@ function longestWord(phrase) {
     }
     return longestWord
 }
+
+// Ejercicio tres
+
+function amountOfOnes(matrix) {
+    var joinedNumbers = matrix.join()
+    var amountOfOnes = 0
+
+    for (var index = 0; index < joinedNumbers.length; index++) {
+        if (joinedNumbers[index] === '1') {
+            amountOfOnes++
+        }
+    }
+    return amountOfOnes
+}
