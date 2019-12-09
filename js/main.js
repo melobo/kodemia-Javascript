@@ -11,3 +11,17 @@ function capitalizer(phrase) {
     var arrayToString = arrayCapitalize.join(' ')
     return arrayToString
 }
+
+// Ejercicio dos
+
+function longestWord(phrase) {
+    var stringToArray = phrase.split(' ')
+    var longestWord = stringToArray[0]
+    for (var index = 0; index < stringToArray.length - 1; index++) {
+        var comparedWord = stringToArray[index + 1]
+        if (comparedWord.length > longestWord.length) {
+            longestWord = comparedWord
+        }
+    }
+    return longestWord
+}
