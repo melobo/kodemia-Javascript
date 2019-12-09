@@ -39,3 +39,13 @@ function amountOfOnes(matrix) {
     }
     return amountOfOnes
 }
+
+// Ejercicio pendiente emular el comportamiento del metodo .length
+
+function manualLength(varToMeasure) {
+    var manualLength = 0
+    while (varToMeasure[manualLength] !== undefined) {
+        manualLength++
+    }
+    return manualLength
+}
