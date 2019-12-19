@@ -6,10 +6,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 </head>
 
 <body>
 
+    <div class="container">
+        <div id="cards" class="row">
+
+        </div>
+    </div>
+
+    <form action="" class="p-3 m-3 border border-secondary col-12 col-md-6 col-xl-4">
+        <div class="form-group">
+            <label for="">Koder name</label>
+            <input id="koder-name" type="text" class="form-control" value="">
+        </div>
+        <div class="form-group">
+            <label for="">Koder email</label>
+            <input id="koder-email" type="text" class="form-control" onblur="validateEmptyInput()"
+                onfocus="clearError()">
+        </div>
+        <div class="form-group">
+            <label for="">Koder address</label>
+            <input id="koder-address" type="text" class="form-control">
+        </div>
+    </form>
+    <button id="add-button" class="btn btn-dark m-5">Agregar Koder</button>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
     <script src="js/main.js"></script>
 </body>
 
