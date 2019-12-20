@@ -1,0 +1,13 @@
+li{
+    list-style: none;
+}
+
+li:hover{
+    color:blue;
+    cursor: pointer;
+}
+
+.active{
+    color:blue;
+    cursor: pointer;
+}
