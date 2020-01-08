@@ -22,4 +22,3 @@ const responseHandler = response => {
 }
 
 var parentNode = document.getElementsByClassName('container')[0]
-
